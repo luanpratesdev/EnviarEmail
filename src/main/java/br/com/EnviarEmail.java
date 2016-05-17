@@ -10,7 +10,7 @@ import org.apache.commons.mail.MultiPartEmail;
 
 public class EnviarEmail {
 	static String EMAIL_DESTINATARIO;
-	static final String EMAIL_EMITENTE = "janine.freitas.ti@gmail.com";
+	static final String EMAIL_EMITENTE = "emailcriptografado.seguro@gmail.com";
 	static final String HOST_NAME = "smtp.gmail.com";
 	static final String SSL_SMTP_PORT = "465";
 	static final int SSL_SMTP_PORT_INT = 465;
@@ -86,11 +86,11 @@ public class EnviarEmail {
 			email.setFrom(EMAIL_EMITENTE);
 			email.addTo(EMAIL_DESTINATARIO);
 			email.addCc(EMAIL_EMITENTE);
-			email.setAuthenticator(new DefaultAuthenticator("janine.freitas.ti@gmail.com", "JAni1409,.;"));
+			email.setAuthenticator(new DefaultAuthenticator("emailcriptografado.seguro@gmail.com", "j9s2lrp13"));
 			email.setSmtpPort(SSL_SMTP_PORT_INT);
 			email.setSslSmtpPort(SSL_SMTP_PORT);
 			email.setSSL(true);
-			email.setSubject("Segurança de Informação - Mensagem");
+			email.setSubject("SeguranÃ§a de InformaÃ§Ã£o - Mensagem");
 			email.setMsg(mensagem);
 			email.send();
 

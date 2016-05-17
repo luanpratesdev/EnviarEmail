@@ -1,5 +1,7 @@
 package br.com;
 
+import java.awt.Toolkit;
+
 public class Principal extends javax.swing.JFrame {
 	/**
 	 * 
@@ -17,6 +19,7 @@ public class Principal extends javax.swing.JFrame {
 
 	public Principal() {
 		initComponents();
+		setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/br/com/res/email.png")));
 		setTitle("Enviar Email Criptografado - By Luan & Janine");
 		setLocationRelativeTo(null);
 		setSize(700, 600);
@@ -150,5 +153,5 @@ public class Principal extends javax.swing.JFrame {
 			}
 		});
 	}
-
+	
 }
