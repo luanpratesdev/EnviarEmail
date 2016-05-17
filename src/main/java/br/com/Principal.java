@@ -104,7 +104,7 @@ public class Principal extends javax.swing.JFrame {
 	}
 
 	private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {
-		JifDescriptografar2 descriptografar = new JifDescriptografar2();
+		JifDescriptografar descriptografar = new JifDescriptografar();
 		jdpprincipal.add(descriptografar);
 		descriptografar.setVisible(true);
 	}

@@ -1,6 +1,6 @@
 package br.com;
 
-public class JifDescriptografar2 extends javax.swing.JInternalFrame {
+public class JifDescriptografar extends javax.swing.JInternalFrame {
 
 	/**
 	 * 
@@ -17,7 +17,7 @@ public class JifDescriptografar2 extends javax.swing.JInternalFrame {
 	private javax.swing.JButton jbLimpar;
 	private javax.swing.JButton jbNovo;
 
-	public JifDescriptografar2() {
+	public JifDescriptografar() {
 		initComponents();
 		setLocation(100, 50);
 		setSize(500, 400);
