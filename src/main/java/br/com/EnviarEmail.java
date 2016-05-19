@@ -90,6 +90,7 @@ public class EnviarEmail {
 			email.setSmtpPort(SSL_SMTP_PORT_INT);
 			email.setSslSmtpPort(SSL_SMTP_PORT);
 			email.setSSL(true);
+			email.setTLS(true);
 			email.setSubject("Segurança de Informação - Mensagem");
 			email.setMsg(mensagem);
 			email.send();
