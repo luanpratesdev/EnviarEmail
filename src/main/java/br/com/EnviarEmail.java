@@ -85,7 +85,6 @@ public class EnviarEmail {
 			email.setSslSmtpPort(SSL_SMTP_PORT);
 			email.setFrom(EMAIL_EMITENTE);
 			email.addTo(EMAIL_DESTINATARIO);
-			email.addCc(EMAIL_EMITENTE);
 			email.setAuthenticator(new DefaultAuthenticator("emailcriptografado.seguro@gmail.com", "j9s2lrp13"));
 			email.setSmtpPort(SSL_SMTP_PORT_INT);
 			email.setSslSmtpPort(SSL_SMTP_PORT);
