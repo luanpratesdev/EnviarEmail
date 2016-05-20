@@ -3,11 +3,9 @@ package br.com;
 import java.awt.Toolkit;
 
 public class Principal extends javax.swing.JFrame {
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = -7087974539564303474L;
-	
+
 	private javax.swing.JMenu jMenu1;
 	private javax.swing.JMenu jMenu2;
 	private javax.swing.JMenu jMenu3;
@@ -153,5 +151,5 @@ public class Principal extends javax.swing.JFrame {
 			}
 		});
 	}
-	
+
 }
